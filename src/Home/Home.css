@@ -1,0 +1,24 @@
+.temple-head{
+    font-family: 'Cormorant', serif;
+    font-size: 60px;
+}
+body{
+    background-image: url("../assets/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.header{
+    margin-top: 100px;
+}
+.templeImg{
+    border-radius: 10px;
+
+}
+.temple-text{
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+}
+.container h1{
+    color: #394867;
+}
