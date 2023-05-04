@@ -3,12 +3,16 @@ import "./Home.css";
 import temple1 from "../assets/bannari-amman-temple.webp";
 import temple2 from "../assets/Meenakshi-Amman-Temple-Madurai.jpg";
 import temple3 from "../assets/Adi-Kumbeswarar-Temple-Kumbakonam.jpg"
+import { Link } from "react-router-dom";
+
 class Home extends Component {
   state = {};
   render() {
     return (
       <>
         <div className="container header">
+            <div className="container text-center"> <button type="button" class="btn btn-primary text-center">Explore Temple's</button></div>
+
           <h1 className=" temple-head text-center mt-5 text-light">
             Temple visit is a spiritual experience that makes a person better.
           </h1>

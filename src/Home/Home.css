@@ -22,3 +22,7 @@ body{
 .container h1{
     color: #394867;
 }
+button{ 
+    margin-left: 0;
+    margin-right: 0;
+}

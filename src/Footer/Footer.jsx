@@ -10,8 +10,8 @@ class Footer extends Component {
                 <div className="row text-center text-uppercase">
                     <div className="col-sm "><Link to="/">HOME</Link> </div>
                     <div className="col-sm"><Link to="/explore-temples"> Explore Temple's</Link></div>
-                    <div className="col-sm">About Us</div>
-                    <div className="col-sm">Contact</div>
+                    <div className="col-sm"><Link to="/about"> About Us</Link></div>
+                    <div className="col-sm"><Link to="/contact">Contact</Link> </div>
                 </div>
             </div>
             </>
