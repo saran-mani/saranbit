@@ -7,9 +7,12 @@ class Navbar extends Component {
     return (
       <nav class="navbar navbar-expand-sm navbar-dark">
         <div class="container">
-          <a class="navbar-brand" href="#">
+            <Link to="/">
+                 <a class="navbar-brand" href="#">
             Temple Paradise
           </a>
+            </Link>
+         
           <button
             class="navbar-toggler d-lg-none"
             type="button"
@@ -49,26 +52,26 @@ class Navbar extends Component {
                   </a>
                 </Link>
               </li>
-              <li class="About">
+              <li class="nav-item">
                 {" "}
-                <Link to="/explore-temples">
+                <Link to="/about">
                   <a class="nav-link" href="#">
                     About
                   </a>
                 </Link>
               </li>
             </ul>
-            <form class="d-flex my-2 my-lg-0">
+            <form class="d-flex my-1 my-lg-0 ">
               <input
                 class="form-control me-sm-2 my-2 m-3"
                 type="text"
                 placeholder="Search"
               />
               <button
-                class="btn btn-outline-success my-2 my-sm-0 m-3 "
+                class="btn btn-outline-dark text-light my-2 my-sm-0 "
                 type="submit"
               >
-                Search
+                Search Temples
               </button>
             </form>
           </div>

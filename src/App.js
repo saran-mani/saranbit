@@ -5,6 +5,8 @@ import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
 import Navbar from './Navbar/Navbar';
 import Footer from './Footer/Footer';
 import TnTemple from './TN/TnTemple';
+import About from './About/About';
+import Conatct from './Contact/Contact';
 
 function App() {
   return (
@@ -13,8 +15,9 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/explore-temples'element={<TnTemple/>}/>
-        <Route path='/explore-temples'element={<TnTemple/>}/>
-        <Route path='/explore-temples'element={<TnTemple/>}/>
+        <Route path='/about'element={<About/>}/>
+        <Route path='/contact'element={<Conatct/>}/>
+
       </Routes>
       <Footer/>
     </Router>
