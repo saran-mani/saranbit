@@ -13,6 +13,8 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/explore-temples'element={<TnTemple/>}/>
+        <Route path='/explore-temples'element={<TnTemple/>}/>
+        <Route path='/explore-temples'element={<TnTemple/>}/>
       </Routes>
       <Footer/>
     </Router>

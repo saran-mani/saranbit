@@ -42,14 +42,20 @@ class Navbar extends Component {
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Link
-                </a>
+                {" "}
+                <Link to="/contact">
+                  <a class="nav-link" href="#">
+                    Contact
+                  </a>
+                </Link>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Link
-                </a>
+              <li class="About">
+                {" "}
+                <Link to="/explore-temples">
+                  <a class="nav-link" href="#">
+                    About
+                  </a>
+                </Link>
               </li>
             </ul>
             <form class="d-flex my-2 my-lg-0">
