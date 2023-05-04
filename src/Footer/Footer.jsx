@@ -1,5 +1,6 @@
 import { Component } from "react";
 import "./Footer.css"
+import { Link } from "react-router-dom";
 class Footer extends Component {
     state = {  } 
     render() { 
@@ -7,8 +8,8 @@ class Footer extends Component {
             <>
             <div className="container-fluid bg-dark text-light p-5">
                 <div className="row text-center text-uppercase">
-                    <div className="col-sm"> HOME</div>
-                    <div className="col-sm">Explore Temple's</div>
+                    <div className="col-sm"><Link to="/">HOME</Link> </div>
+                    <div className="col-sm"><Link to="/explore-temples"> Explore Temple's</Link></div>
                     <div className="col-sm">About Us</div>
                     <div className="col-sm">Contact</div>
                 </div>
