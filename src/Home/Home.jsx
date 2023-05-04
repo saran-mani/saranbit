@@ -11,7 +11,7 @@ class Home extends Component {
     return (
       <>
         <div className="container header">
-            <div className="container text-center"> <button type="button" class="btn btn-primary text-center">Explore Temple's</button></div>
+            <div className="container text-center"><Link to="/explore-temples"> <button type="button" class="btn btn-primary text-center">Explore Temple's</button></Link></div>
 
           <h1 className=" temple-head text-center mt-5 text-light">
             Temple visit is a spiritual experience that makes a person better.
