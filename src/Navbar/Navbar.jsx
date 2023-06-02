@@ -68,10 +68,10 @@ class Navbar extends Component {
                 placeholder="Search"
               />
               <button
-                class="btn btn-outline-dark text-light my-2 my-sm-0 "
+                class="btn btn-outline-dark text-light "
                 type="submit"
               >
-                Search Temples
+                Searchded Temples
               </button>
             </form>
           </div>
