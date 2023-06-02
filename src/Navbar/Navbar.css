@@ -1,3 +1,12 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+form input{
+    margin: 10px;
+}
+#searchbtn{
+    padding: 5px;
+}
+li .nav-item a{
+    text-decoration: none;
+}

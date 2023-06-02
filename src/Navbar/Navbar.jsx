@@ -61,17 +61,17 @@ class Navbar extends Component {
                 </Link>
               </li>
             </ul>
-            <form class="d-flex my-1 my-lg-0 ">
+            <form class="d-flex ">
               <input
-                class="form-control me-sm-2 my-2 m-3"
+                class="form-control"
                 type="text"
                 placeholder="Search"
               />
-              <button
+              <button id="searchbtn"
                 class="btn btn-outline-dark text-light "
                 type="submit"
               >
-                Searchded Temples
+                Search
               </button>
             </form>
           </div>

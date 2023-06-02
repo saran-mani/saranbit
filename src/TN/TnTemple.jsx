@@ -3,15 +3,16 @@ import temple1 from "../assets/Meenakshi-Amman-Temple-Madurai.jpg";
 import temple2 from "../assets/Adi-Kumbeswarar-Temple-Kumbakonam.jpg";
 import temple3 from "../assets/Brihadeeswarar-Temple-Thanjavur.jpg";
 import temple4 from "../assets/Sri-Ranganathaswamy-Temple-Srirangam.jpg";
-import temple5 from "../assets/Sri-Rajagopala-Swamy-Temple-Mannargudi.jpg"
-import temple6 from "../assets/Jambukeswarar-Temple-Thiruvanaikaval.jpg"
-import temple7 from "../assets/Kanchi-Kailasanathar-Temple-Kanchipuram.jpg"
-import temple8 from "../assets/Ekambareswarar-Temple-Kanchipuram.jpg"
-import temple9 from "../assets/Rameshwaram-Jyotirlinga-Temple.jpg"
-import temple10 from "../assets/Mayuranathaswami-Temple-Mayiladuthurai.jpg"
-import temple11 from "../assets/Kapaleeshwarar-Temple-Chennai.jpg"
-import temple12 from "../assets/Meenakshi-Amman-Temple-Madurai.jpg"
+import temple5 from "../assets/Sri-Rajagopala-Swamy-Temple-Mannargudi.jpg";
+import temple6 from "../assets/Jambukeswarar-Temple-Thiruvanaikaval.jpg";
+import temple7 from "../assets/Kanchi-Kailasanathar-Temple-Kanchipuram.jpg";
+import temple8 from "../assets/Ekambareswarar-Temple-Kanchipuram.jpg";
+import temple9 from "../assets/Rameshwaram-Jyotirlinga-Temple.jpg";
+import temple10 from "../assets/Mayuranathaswami-Temple-Mayiladuthurai.jpg";
+import temple11 from "../assets/Kapaleeshwarar-Temple-Chennai.jpg";
+import temple12 from "../assets/Sri-Ranganathaswamy-Temple-Srirangam.jpg";
 import "./TnTemple.css";
+import { Link } from "react-router-dom";
 class TnTemple extends Component {
   state = {};
   render() {
@@ -34,9 +35,11 @@ class TnTemple extends Component {
                     the Meenakshi Amman Temple is one of the most ancient and
                     famous temples not only in Tamil Nadu but, in entire India.
                   </p>
-                  <button type="button" class="btn btn-primary">
-                    Explore
-                  </button>
+                  <Link to="/explore-temples/t1">
+                    <button type="button" class="btn btn-primary">
+                      Explore
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -54,9 +57,11 @@ class TnTemple extends Component {
                     style masterpiece which was renovated by Govinda Dikshitar,
                     chief of Achutha Nayakar of Thanjavur in 16th century AD.
                   </p>
-                  <button type="button" class="btn btn-primary">
-                    Explore
-                  </button>
+                  <Link to="/explore-temples/t2">
+                    <button type="button" class="btn btn-primary">
+                      Explore
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -68,7 +73,7 @@ class TnTemple extends Component {
                     Brihadeeswarar Temple Thanjavur – One of ‘Great living Chola
                     Temples’
                   </h4>{" "}
-                  <p className="card-text">Location: Kumbakonam</p>
+                  <p className="card-text">Location: Thanjavur</p>
                   <p class="card-text">
                     The ‘Brihadeeswarar Temple’ is a delightful abode of Lord
                     Shiva and is located in the Thanjavur district of Tamil
@@ -76,9 +81,11 @@ class TnTemple extends Component {
                     brilliant creation of the Chola dynasty in the 11th century
                     of the Chola rulers.
                   </p>
-                  <button type="button" class="btn btn-primary">
-                    Explore
-                  </button>
+                  <Link to="/explore-temples/t3">
+                    <button type="button" class="btn btn-primary">
+                      Explore
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -90,16 +97,18 @@ class TnTemple extends Component {
                     Sri Ranganathaswamy Temple Srirangam – Spiritual Peace and
                     Wonderful Architecture
                   </h4>{" "}
-                  <p className="card-text">Location: Kumbakonam</p>
+                  <p className="card-text">Location: Srirangam</p>
                   <p class="card-text">
                     Dedicated to Lord Vishnu, the ‘Ranganathaswamy Temple’
                     located on the Srirangam Island of the Tiruchirappalli city
                     in Tamilnadu, is another masterpiece of Dravidian
                     architecture. Spread across an area of over 150 acres.
                   </p>
-                  <button type="button" class="btn btn-primary">
-                    Explore
-                  </button>
+                  <Link to="/explore-temples/t4">
+                    <button type="button" class="btn btn-primary">
+                      Explore
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -122,9 +131,11 @@ class TnTemple extends Component {
                     Krishna. The temple is also known as Guruvayoor by Hindus.
                     It is one of the most popular vaishnavite temples in India.
                   </p>
-                  <button type="button" class="btn btn-primary">
-                    Explore
-                  </button>
+                  <Link to="/explore-temples/t5">
+                    <button type="button" class="btn btn-primary">
+                      Explore
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -145,9 +156,11 @@ class TnTemple extends Component {
                     adorned with delicate carvings which depicts the artistic
                     grandeur of Chola Kingdom.
                   </p>
-                  <button type="button" class="btn btn-primary">
-                    Explore
-                  </button>
+                  <Link to="/explore-temples/t6">
+                    <button type="button" class="btn btn-primary">
+                      Explore
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -167,9 +180,11 @@ class TnTemple extends Component {
                     Dynasty. You will see some of the best temples from the
                     period of Pallavas.
                   </p>
-                  <button type="button" class="btn btn-primary">
-                    Explore
-                  </button>
+                  <Link to="/explore-temples/t7">
+                    <button type="button" class="btn btn-primary">
+                      Explore
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -189,9 +204,11 @@ class TnTemple extends Component {
                     Earth and holds a great religious significance for devotees
                     of Lord Shiva.
                   </p>
-                  <button type="button" class="btn btn-primary">
-                    Explore
-                  </button>
+                  <Link to="/explore-temples/t8">
+                    <button type="button" class="btn btn-primary">
+                      Explore
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -214,9 +231,11 @@ class TnTemple extends Component {
                     being one of the holy ‘Chardham’, the temple is also counted
                     amongst the 12 sacred Jyotirlingas of Lord Shiva.
                   </p>
-                  <button type="button" class="btn btn-primary">
-                    Explore
-                  </button>
+                  <Link to="/explore-temples/t9">
+                    <button type="button" class="btn btn-primary">
+                      Explore
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -235,9 +254,11 @@ class TnTemple extends Component {
                     Shiva cursed Goddess Parvati and as a result Goddess Parvati
                     was born as a Peahen.
                   </p>
-                  <button type="button" class="btn btn-primary">
-                    Explore
-                  </button>
+                  <Link to="/explore-temples/t10">
+                    <button type="button" class="btn btn-primary">
+                      Explore
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -257,9 +278,11 @@ class TnTemple extends Component {
                     that the original structure was devastated by the Portuguese
                     and it was in the 16th century that
                   </p>
-                  <button type="button" class="btn btn-primary">
-                    Explore
-                  </button>
+                  <Link to="/explore-temples/t11">
+                    <button type="button" class="btn btn-primary">
+                      Explore
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -271,16 +294,18 @@ class TnTemple extends Component {
                     Sri Ranganathaswamy Temple Srirangam – Spiritual Peace and
                     Wonderful Architecture
                   </h4>{" "}
-                  <p className="card-text">Location: Kumbakonam</p>
+                  <p className="card-text">Location: Srirangam</p>
                   <p class="card-text">
                     Dedicated to Lord Vishnu, the ‘Ranganathaswamy Temple’
                     located on the Srirangam Island of the Tiruchirappalli city
                     in Tamilnadu, is another masterpiece of Dravidian
                     architecture. Spread across an area of over 150 acres.
                   </p>
-                  <button type="button" class="btn btn-primary">
-                    Explore
-                  </button>
+                  <Link to="/explore-temples/t12">
+                    <button type="button" class="btn btn-primary">
+                      Explore
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>

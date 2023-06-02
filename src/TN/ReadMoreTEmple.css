@@ -1,0 +1,13 @@
+body{
+    width: 100%;
+}
+h4,p{
+    color: white;
+}
+.map{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.templeimg{
+    border-radius: 10px;
+}
